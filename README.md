@@ -1,4 +1,4 @@
-# TEST TASK - Python Django Engineer - Remote 
+# Reservation Test App
 This test project contains a  view to show Reservations with "previous reservation ID".
 Previous reservation is a reservation that is before the current one into same
 rental.
