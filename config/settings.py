@@ -40,6 +40,7 @@ class Common(Configuration):
 
         'django_extensions',
         'debug_toolbar',
+        'rest_framework',
 
         'users',
         'main'
