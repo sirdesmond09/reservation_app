@@ -16,6 +16,6 @@ http://localhost:8000/v1/reservations/
 ```bash
 $git clone
 $ mv example.env .env
-$ docker-compose -d -build
+$ docker-compose -d --build
 ```
 
