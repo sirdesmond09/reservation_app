@@ -9,12 +9,12 @@ services:
     ports:
       - 8000:8000
     depends_on:
-      - db
+      - database
     environment:
       - POSTGRES_NAME=postgres
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-  db:
+  database:
     image: postgres:11
     volumes:
       - postgres_data:/var/lib/postgresql/data/
