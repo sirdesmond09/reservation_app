@@ -1,4 +1,4 @@
-# TEST TASK - Python Django Engineer - Remote 
+# Reservation Test App
 This test project contains a  view to show Reservations with "previous reservation ID".
 Previous reservation is a reservation that is before the current one into same
 rental.
@@ -16,6 +16,6 @@ http://localhost:8000/v1/reservations/
 ```bash
 $git clone
 $ mv example.env .env
-$ docker-compose -d -build
+$ docker-compose -d --build
 ```
 
